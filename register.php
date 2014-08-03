@@ -1,16 +1,23 @@
+
 <?php
-$pageTitle = "QL: Homepage";     
+$pageTitle = "QL: Register";   
 include("inc/header.php");
 ?>
 
-<!-- Login screen code here.-->            
 
-<form>
+<form action="index.html" method="post">
             
-    <img src="/img/ql_logo.png" alt="Quake Live Logo" />
+    <h1 class="text-center">Register Here:</h1>
 
     <label for="name">Username:</label>
     <input type="text" id="name" name="user_name">
+
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="user_email">
+
+    <br>
 
     <label for="password">Password:</label>
     <input type="password" id="password" name="user_password">
@@ -23,9 +30,9 @@ include("inc/header.php");
             <button type="reset">Reset</button>
         </div>
     </div>
-            
+
     <div class="row text-center">
-        <a href="/register.php">Not a member? Sign up!</a>
+        <a href="/index.php">Already a member? Sign in!</a>
     </div>
 
 </form>
@@ -34,5 +41,3 @@ include("inc/header.php");
 <?php
 include("inc/footer.php");
 ?>
-        
-

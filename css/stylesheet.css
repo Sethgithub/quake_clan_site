@@ -1,0 +1,64 @@
+/**************************
+GENERAL LAYOUTS
+**************************/
+body {
+  background: url(http://subtlepatterns.com/patterns/skelatal_weave.png);
+  color: #8a0707;
+  font-family: 'Droid Serif', sans-serif; }
+
+.text-center {
+  text-align: center; }
+
+/**************************
+LINK LAYOUTS
+**************************/
+a:link,
+a:visited {
+  color: #8a0707; }
+
+a:hover {
+  color: #290202; }
+
+/**************************
+FORM LAYOUTS
+**************************/
+form {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #c0c0c0;
+  border-radius: 8px; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 24px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #FFF;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  overflow: hidden; }
+
+button {
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px; }
+
+/**************************
+FRONT PAGE
+**************************/
+.mainTitle {
+  font-family: 'Trade Winds', cursive;
+  font-size: 1.25em; }
