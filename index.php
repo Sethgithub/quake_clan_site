@@ -2,7 +2,7 @@
 $pageTitle = "QL: Homepage";     
 include("inc/header.php");
 ?>
-
+<script type="text/javascript" src="scripts/ql_api.js"></script>
 <!-- Login screen code here.-->            
 
 <form>
